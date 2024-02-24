@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(170, 170, 170);
+}
+
+.titleh1{
+    text-align: center;
+}
+
+.img1{
+    align-items: center;
+    width: 150px;
+    height: 210px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: solid 5px rgb(123, 123, 123);
+    
+}
+
+.text1{
+
+}
+
+.contenedor{
+
+}
