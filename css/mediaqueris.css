@@ -21,7 +21,6 @@
         width: 85%;
         height: 70%;
         display: inline-block;
-        padding-top: 10px;
     }
     
 }
@@ -46,7 +45,7 @@
     }
     .img1 {
         width:90%;
-        height: 50%;
+        height: 60%;
         margin: 0;
         
     }    
@@ -58,51 +57,3 @@
     }
 }
 
-@media (1200px <= width <= 1366px) { /*Laptops*/
-    .img1 {
-        width: 100%;
-    }
-    .section{
-        display: inline-block;
-        width: 40%;
-    }
-    .container {
-        width: 98%;
-        display: flex;
-    }
-    .container-tittle{
-        width: 100%;
-    }
-    body{
-        align-items: center;
-    }
-}
-@media (width >= 1367px) { /*Pantallas grandes*/
-    .container, h2{
-        text-align: center;
-        width: 270px;
-        height: 100px;
-    }
-    .section{
-        display: inline-block;
-        width: 40%;
-    .img1 {
-        padding-top: 100px;
-        width: 100%;
-        }
-    .img1 h2{
-        text-align: center;
-        width: 270px;
-        height: 100px;
-    }
-    .img1 {
-        width: 100%;
-    }
-    .container {
-        width: 98%;
-    }
-    .container-tittle, h1{
-        width: 100%;
-    }
-}
-}
