@@ -13,13 +13,7 @@ body{
   .content{
     justify-content: left;
     display: grid;
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(
-        140px,
-        1fr
-      )
-    );
+    grid-template-columns: repeat(4, 4fr);
     text-align: center;
     margin-top: 4%;
     
@@ -33,7 +27,7 @@ body{
 }
 
 .img1{
-    width: 90%;
+    width: 80%;     
     height: 60%;
     right: 50%;
     margin-left: 5%;
@@ -47,7 +41,6 @@ body{
         color: white;
         text-align: justify;
         display: flex;
-        justify-content: center;
         width: 90%;
         height: 40%;
         right: 50px;
